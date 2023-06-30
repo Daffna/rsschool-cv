@@ -40,12 +40,12 @@ void sort(int *arr) {
 ```
 ## *Education*
 
-* [School 21 (in progress)] (https://21-school.ru/)
-* [The Rolling Scopes School (in progress)] (https://rs.school/)
-* [Fundamentals of C programming. Tasks.] (https://stepik.org/course/3078/syllabus)
-* [C programming and program execution] (https://stepik.org/course/73618/syllabus)
-* [Intro to Git] (https://ru.hexlet.io/courses/intro_to_git)
-* [Command line basics] (https://ru.hexlet.io/courses/cli-basics)
+* [School 21 (in progress)](https://21-school.ru/)
+* [The Rolling Scopes School (in progress)](https://rs.school/)
+* [Fundamentals of C programming. Tasks.](https://stepik.org/course/3078/syllabus)
+* [C programming and program execution](https://stepik.org/course/73618/syllabus)
+* [Intro to Git](https://ru.hexlet.io/courses/intro_to_git)
+* [Command line basics](https://ru.hexlet.io/courses/cli-basics)
 
 ## *Languages*
 
