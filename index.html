@@ -3,60 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Irina Barabash CV</title>
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,200&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Roboto+Serif:ital,wght@1,200&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <header class = "header">
-       
+      
         <nav class="nav" >
             <ul class="nav-list">
-              <li class="nav-item"><a href="#contacts" class="nav-link">Connect with me</a></li>
+              <li class="nav-item"><a href="#contacts" class="nav-link">Connect with me  </a></li>
               <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
               <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
               <li class="nav-item"><a href="#code example" class="nav-link">Code example</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
               <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
               <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
             </ul>
           </nav>
-        <div class="container">
-
-        </div>
+    
 
     </header>
-    <section class="section" id="contacts">
-        <h2 class="section-title">Connect with me</h2>
-        <ul>
-            <li>Location: Khimki, Russia</li>
-            <li>E-mail:<a href="irinabarabashvi@gmail.com">irinabarabashvi@gmail.com</a></li>
-            <li>Telegram:<a href="https://t.me/Daffynka">@daffynka</a></li>
-            <li>Discord:<a href="https://discordapp.com/users/904346861995966554/"> _daffna</a></li>
-            <li>GitHub:<a href="https://github.com/Daffna">Daffna</a></li>
-        </ul>
-    </section>
-    <section class="section" id="summary">
-        <h2 class="section-title">Summary</h2>
-        <p>I am 29 years old. By education I am a teacher. But since 2015 I have been working as flight attendant. During this time I was able to visit many countries and cities. And I think it's time to change my life once again. The IT industry has always been attractive to me. So since the beginning of 2023 I have been studying IT. This is a difficult but very interesting path. The path of constant self-development and learning. And I love it!</p>
-</section>
     
 
     <main class="main-container">
-        <div class="container"></div>
+        <h1>Barabash Irina</h1>
+        <br>
+        <p class="aligncenter">
+         <img id="photo" src="./assets/img/my_photo.png" alt="my photo" width="250" height="250">
+         </p>
+
+        <section class="section" id="contacts">
+            <h2 class="section-title">Connect with me</h2>
+    
+            <ul>
+                <li>Location: Khimki, Russia</li>
+                <li>E-mail:<a href="irinabarabashvi@gmail.com">irinabarabashvi@gmail.com</a></li>
+                <li>Telegram:<a href="https://t.me/Daffynka">@daffynka</a></li>
+                <li>Discord:<a href="https://discordapp.com/users/904346861995966554/"> _daffna</a></li>
+                <li>GitHub:<a href="https://github.com/Daffna">Daffna</a></li>
+            </ul>
+        </section>
+        <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>I am 29 years old. By education I am a teacher. But since 2015 I have been working as flight attendant. During this time I was able to visit many countries and cities. And I think it's time to change my life once again. The IT industry has always been attractive to me. So since the beginning of 2023 I have been studying IT. This is a difficult but very interesting path. The path of constant self-development and learning. And I love it!</p>
+    </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>Git, GitHub</li>
+                <li>HTML and CSS (beginner)</li>
+                <li>C</li>
+            </ul>
+        </section>
+    
+        <section class="section" id="code example">
+            <h2 class="section-title">Code example</h2>
+            <p>Bubble sort</p>
+            <pre>
+         void sort(int *arr) {
+            int temp;
+            for (int i = 0; i < 10 - 1; i++) {
+                for (int j = 0; j < 10 - i - 1; j++) {
+                    if (arr[j] > arr[j + 1]) {
+                        temp = arr[j];
+                        arr[j] = arr[j + 1];
+                        arr[j + 1] = temp;
+                        }
+                    }
+                }
+            }    
+            </pre>
+        </section>
+        
+        <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <p>Development a program for a two-player game, similar to Pong.</p>
+            <a href="https://github.com/Daffna/Pong-game#list-1">Pong game</a>
+        </section>
+    
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li><a href="https://21-school.ru/">School 21</a> (in progress)<a href=""</li>
+                <li><a href="https://rs.school/">The Rolling Scopes School</a> (in progress)</li>
+                <li><a href="https://stepik.org/course/3078/syllabus">Fundamentals of C programming. Tasks.</a></li>
+                <li><a href="https://stepik.org/course/73618/syllabus">C programming and program execution</a></li>
+                <li><a href="https://ru.hexlet.io/courses/intro_to_git">Intro to Git</a></li>
+                <li><a href="https://ru.hexlet.io/courses/cli-basics">Command line basics</a></li>
+            </ul>
+        </section>
+        
+        <section class="section" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+                <li>Russian - Native</li>
+                <li>English (intermediate)</li>
+            </ul>
+        </section>
 
     </main>
 
 
 
     <footer class="footer">
-        <div class="container"></div>
+        <a href="https://github.com/Daffna">GitHub</a>
+        <p>2023</p>
+        <a href="https://rs.school/js/"><img class="rss_img" src="https://rs.school/images/rs_school_js.svg"
+            alt="rs_school img"></a>
 
     </footer>
 
-    <img src="./assets/img/my_photo.jpg" alt="my photo" >
+    
 </body>
 </html>
